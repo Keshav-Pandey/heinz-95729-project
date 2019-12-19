@@ -26,8 +26,8 @@ namespace CognitoBot
         public void addHeaders(RestRequest request) {
             request.AddHeader("cache-control", "no-cache");
             request.AddHeader("Content-Type", "application/json");
-            request.AddHeader("X-AYLIEN-TextAPI-Application-ID", "9915cb86");
-            request.AddHeader("X-AYLIEN-TextAPI-Application-Key", "b0cdea5fc81ec683cb681eec282fcb12");
+            request.AddHeader("X-AYLIEN-TextAPI-Application-ID", "321");
+            request.AddHeader("X-AYLIEN-TextAPI-Application-Key", "132");
         }
         public class SentimentResponse
         {
